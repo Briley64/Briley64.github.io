@@ -1,0 +1,101 @@
+<!--Briley Edlin --> 
+<!-- ITEC 236 - SIU -->
+<!-- Final Project - Join Page -->
+<!-- Date Created: 4/19/22--> 
+
+<!-- document creation and language settings -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Covenant Recruitment Join & Contact">
+    <meta name="keywords" content="Halo, Covenant, Recruitment, Join, Contact, Comments">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS\styles.css">
+    <link rel="stylesheet" href="CSS\slicknav.css">
+    
+    <!-- title of website as reflected in the tab -->
+    <title>Join the Covenant</title> <!-- name that appears on tab -->
+    
+    <!-- style settings -->
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+    </style>
+    
+    <!-- color of website -->
+    <body style="background-color:rgb(170, 127, 157);"></body> 
+
+    <!--Website logo-->
+    <p><img src="Images/Covenant_logo.webp" class="logo" weight="120" height="120"><img></p>
+
+    <center>
+    <!-- Navigation Menu -->
+    <ul class="menu">
+        <a href="index.html"><font size="+2">Home </a></font></li>
+        <a href="About.html"><font size="+2">About Us </a></font></li>
+        <a href="Mission.html"><font size="+2">Our Mission </a></font></li>
+        <a href="Wanted.html"><font size="+2">Most Wanted </a></font></li>
+        <a href="Join.html"><font size="+2">Join Us </a></font></li>
+        </ul>
+        </center>
+    
+ <!-- Name of Page -->
+    <h1 style="color: rgb(142, 211, 228)"><font size="+5em"> Join Us Today! </font></h1><br><br>
+
+    
+</head>
+
+<center><div class="flex-container">
+    <div><img src="Images/halo_grunt.webp"  height="220px" width="300px"></img></div>
+    <div><form action="Response.html"><font size="+1em">
+        <label for="First Name">First Name:</label><br>
+        <input type="text" id="fname" name="fname" minlength="1" required><br>
+       
+        <label for="Last Name">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" minlength="1" required><br>      
+    
+        <label for="Email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br>
+    
+        <label for="species">Species:</label><br>
+        <input type="text" id="species" name="species" minlength="1" required><br>
+    
+        <label for="Birth Planet">Birth Planet:</label><br>
+        <input type="text" id="birth planet" name="birth planet" minlength="1" required><br>
+    
+        <label for="Date">Date:</label><br>
+        <input type="text" id="date" name="date" maxlength="10" minlength="8" required><br>
+        <br>
+    
+        Type of Inquery: 
+        <br>
+        <input type="radio" id="Join" value="Join" name="inquery" required>
+        <label for="suggestion">I want to Join</label>
+        <input type="radio" id="Question" value="Question" name="inquery">
+        <label for="Question">I have a Question</label>
+        <input type="radio" id="Other" value="Other"  name="inquery">
+        <label for="Other">Other</label><br>
+    
+        <br>
+        <label for="Message">Message:</label><br>
+        <input type="text" id="msg" name="msg" maxlength="200" required size="60"><br>   
+        
+        <br><input type="submit" value="Submit" onclick="window.location.href= Response.html"><input type="reset" value="Reset"><br>
+        
+    </form></font>
+    </div>
+    <div><img src="Images/halo_jackal.png"  height="250px" width="300px"></img></div>
+</div></center>
+
+<!-- Scripts for SlickNav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="CSS/jquery.slicknav.js"></script>
+        <script>
+            $('.menu').slicknav();
+        </script>
+
+

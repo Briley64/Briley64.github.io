@@ -1,0 +1,69 @@
+/* Print Style Sheet */
+
+
+/* text changes */
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: white;
+    font-size: 100%;
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu style */
+.menu {
+	display: none;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+
+/* the styles for the elements */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+
+
+/* hide link */
+h2 {
+	display: none;
+}
+
+a {
+	display: none;
+}
+
+/* change image sizes */
+img.main {
+	height: 30%;
+	width: 30%;
+}
+
+figure {
+	height: 10%;
+	width: 25%;
+}
+
+fig.caption{
+	font-size: 100%;
+}
+
+/* the styles for the navigation menu */
+.menu {
+	clear: both;
+}
+.menu ul {
+	list-style: none;
+}
+.menu ul li {
+	float: left;
+}
