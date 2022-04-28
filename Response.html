@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+    //<![CDATA[
+    var display_data = function () {
+        var query = location.search.replace("?", "");
+        if ( query == "" ) return;
+        
+        var fields = query.split("&");
+        
+        if ( fields.length == 0 ) {
+            document.write("<p>No data was submitted.</p>");
+        } else {
+            document.write("<dl>");
+            var field_parts;
+            for ( var i in fields ) {
+                field_parts = fields[i].split("=");
+                field_parts[0] = decode( field_parts[0] );
+                field_parts[1] = decode( field_parts[1] );
+                document.write("<dt>" + field_parts[0] + "</dt>");
+                document.write("<dd>" + field_parts[1] + "</dd>");
+            }
+            document.write("</dl>");
+        }
+    }
+    //]]>
+    </script>
+
+<body>
+    <h1 style="color: rgb(142, 211, 228); text-align: center;">Thank you for your Submission!</h1>
+    <script>display_data();</script>
+
+    <!-- color of website -->
+    <body style="background-color:rgb(170, 127, 157);"></body> 
+
+    <!-- gif of grunt -->
+    <center>
+        <img src="Images/halo_confetti.gif"  style="border: 7px solid rgb(248, 174, 242)" ></img>
+    </center>
+    <br><br>
+
+    <!-- return to home -->
+    <center>
+        <a href="index.html" style="text-align:center"><font size="+3em">Home Page</font></a>
+    </center>
+    <br><br>
+
+
+    <center>
+        <img src="Images/halo-meme.jpg" hieght="500" width="350" ></img>
+    </center>
+
+    <!-- Audio Settings -->
+    <audio autoplay hidden>
+        <source src="Audio/Y2Mate.is - Wort, wort, wort!-FrHfdkY2V1M-480p-1650133004507.mp4" type="audio/mpeg"> <!-- sound of elites-->
+    </audio>
+
+
+</body>
+</html>

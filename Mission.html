@@ -1,0 +1,156 @@
+<!--Briley Edlin --> 
+<!-- ITEC 236 - SIU -->
+<!-- Final Project - Our Mission Page -->
+<!-- Date Created: 4/19/22--> 
+
+<!-- document creation and language settings -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Covenant Recruitment Our Mission">
+    <meta name="keywords" content="Halo, Covenant, Recruitment, Mission, Goals, Successes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS\styles.css">
+    <link rel="stylesheet" href="CSS\slicknav.css">
+    
+    <!-- title of website as reflected in the tab -->
+    <title>Join the Covenant</title> <!-- name that appears on tab -->
+    
+    <!-- style settings -->
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        
+        @media screen and (max-width: 600px) {
+            column1 {
+                width: 100%;
+                margin-bottom: 60px;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            column2 {
+                width: 100%;
+            }
+        }
+
+        column1:after {
+        content: "";
+        display: table;
+        clear: both;
+        float:none
+        }
+
+        column2:after {
+        content: "";
+        display: table;
+        clear: both;
+        float:none
+        }
+
+        @media screen and (max-width: 1020px) {
+        /* set repsonsiveness for columns */
+            column1 {
+                width: 70%;
+                margin: 5% auto;
+                display: block;
+                float: none;
+            }
+        }
+
+        @media screen and (max-width: 1020px) {
+        /* set repsonsiveness for columns */
+            column2 {
+                width: 70%;
+                margin: 5% auto;
+                display: block;
+                float: none;
+            }
+        }
+
+    </style>
+
+    
+    <!-- color of website -->
+    <body style="background-color:rgb(170, 127, 157);"></body> 
+
+    <!--Website logo-->
+    <p><img src="Images/Covenant_logo.webp" class="logo" weight="120" height="120"><img></p>
+
+    <center>
+    <!-- Navigation Menu -->
+    <ul class="menu">
+        <a href="index.html"><font size="+2">Home </a></font></li>
+        <a href="About.html"><font size="+2">About Us </a></font></li>
+        <a href="Mission.html"><font size="+2">Our Mission </a></font></li>
+        <a href="Wanted.html"><font size="+2">Most Wanted </a></font></li>
+        <a href="Join.html"><font size="+2">Join Us </a></font></li>
+        </ul>
+        </center>
+    
+
+    <!-- Name of Page -->
+    <h1 style="color: rgb(142, 211, 228)"><font size="+5em"> The Covenant's Mission </font></h1><br><br>
+
+</head>
+
+
+<column1>
+    <!-- column 1 for long term goals -->
+    <h1 style="color:rgb(255, 255, 255);"><font size="+4em"><b> Long Term Goals </b></font><br>
+    <br>
+    <!-- list of goals -->
+    <ul style="color:rgb(255, 255, 255);"><font size="+2em">
+        <li>Activate the Halos</li>
+        <br>
+        <li>Reclaim Forerunner Technology</li>
+        <br>
+        <li>Rule the Galaxy </li>
+        <br>
+        <li>Transcend to the Great Beyond</li>
+        <br>
+    </font></ul>
+
+
+    <img src="Images/Halo_ring.webp" class = border height = 200 width = 350 ><br></h1>
+
+</column1>
+
+<column2>
+    <!-- column 2 for immediate objectives  -->
+    <h1 style="color:rgb(255, 255, 255);"><font size="+4em"><b> Immediate Objectives </b></font><br>
+    <br>
+    <!-- list of objectives -->
+    <ul style="color:rgb(255, 255, 255);"><font size="+2em">
+        <li>Expand the Covenant Empire</li>
+        <br>
+        <li>Obtain the Scared Icon</li>
+        <br>
+        <li>Kill the Demon (See "Most Wanted")</li>
+        <br>
+        <li>Conquer the Parasite</li>
+        <br>
+    </font></ul>
+
+
+    <img src="Images/Halo_icon.jpg" class = border height = 200 width = 350 ><br></h1>
+
+</column2>
+
+<!-- video formatting -->
+<center>
+    <video  controls autoplay width="600" height="500" style="text-align:center">
+        <source src="Audio/All of Regret's in game speeches_ Halo 2 Anniversary.mp4" type="video/mp4">
+    </video>
+</center>
+
+
+<!-- Scripts for SlickNav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="CSS/jquery.slicknav.js"></script>
+        <script>
+            $('.menu').slicknav();
+        </script>

@@ -1,0 +1,357 @@
+/* Briley Edlin */
+/* ITEC 236 - SIU */
+/* Final Project */
+/* Date created: 4/19/22 */
+
+body {
+    background-color:rgb(170, 127, 157); /* set background color */
+    /* set width of page to percentages for responsiveness*/
+    font-size: 20%;
+    width: 98%;
+	max-width: 5312.5%;
+}
+
+@media screen and (max-width: 1020px) {
+    /* set repsonsiveness for columns */
+    column2 {
+      width: 70%;
+      margin: 5% auto;
+      display: block;
+      float: none;
+    }
+}
+
+/* Slicknav responsiveness */
+@media all and (max-width: 769px) {
+	.slicknav_menu {
+		display: block;
+        width: 35%;
+        float: center;
+        background: transparent;
+	}
+    .slicknav_menu{
+        background: rgb(248, 174, 242);
+        text-align: center;
+        font-size: relative-size;
+    }
+    .topnav{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .column {
+      width: 100%; 
+    }
+}
+
+/* img logo setting*/
+img.logo {
+    float: left;
+    max-width: 100%;
+}
+
+/* Slicknav settings */
+.menu {
+    overflow: clip;
+    background-color: rgb(248, 174, 242);
+    height: 100px;
+    margin: 0px 480px 20px 5px;
+    max-width: 100%;
+}
+  
+.menu a {
+    float: left;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 55px;
+    font-family: Georgia, serif;
+    max-width: 100%;
+}
+
+.menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(142, 211, 228);
+    max-width: 100%;
+}
+
+
+.menu li {
+    /* create format for navigation menu */
+    background:rgb(248, 174, 242);
+    width: 150px;
+    text-align: center;
+    border: 2px solid rgb(175, 239, 255);
+    display: inline-block;
+    max-width: 100%;
+}
+
+.menu li a {
+    /* create format for navigation menu */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.menu li a:hover {
+    background-color: rgb(248, 174, 242);
+
+}
+
+.slicknav_menu {
+	display: none;
+
+}
+
+@media all and (max-width: 1350px) {
+	.slicknav_menu {
+		display: block;
+        width: 35%;
+        float: center;
+        background: transparent;
+	}
+    .slicknav_menu{
+        background: rgb(248, 174, 242);
+        text-align: center;
+        font-size: relative-size;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+/* Image settings */
+img.main {
+    float: right;
+    margin: 0px 35px 0px 0px;
+    border: 7px solid rgb(142, 211, 228);
+    max-width: 100%;
+
+}
+
+img.border {
+    border: 7px solid rgb(142, 211, 228);
+    max-width: 100%;
+}
+
+img.right {
+    float: right;
+    position:inline-block;
+    max-width: 100%;
+}
+
+img.left {
+    float: left;
+    position:absolute;
+    max-width: 100%;
+
+}
+
+img.circle {
+    border-radius: 50%;
+    max-width: 100%;
+    transition: width 2s, height 2s;
+
+}
+
+img.circle:hover {
+    width: 50%;
+    height: 50%;
+}
+
+
+img.icon {
+    animation: slideInFromBottom 1s ease-in;
+
+    float:none;
+    max-width: 100%;
+}
+
+p.q {
+    clear:both;
+    display:block;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+span {
+    font-family: Georgia, serif;
+}
+
+h2 {
+    margin: 0px 30px 0px 30px
+}
+
+/* image caption */
+figure {
+    display: inline-block;
+    position: relative;
+}
+figure img {
+    vertical-align: top;
+    max-width: 100%;
+}
+figure figcaption {
+    text-align: center;
+}
+
+.imageholder{
+    position: relative;
+}
+
+.caption{
+    position: absolute;
+}
+
+/* cursor settings */
+html {
+    cursor: url("images/energy_sword.cur"), default;
+}
+
+/* Column settings */
+column1 {
+    /* create formatting for the first column */
+    background-color:rgb(248, 174, 242); 
+    float: left;
+    text-align: center;
+    width: 35%;
+    min-height: 550px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    padding: 10px;
+    box-shadow: 10px 20px rgb(142, 211, 228);
+    max-width: 100%;
+
+}
+
+column2 {
+    /* create formatting for the second column*/
+    background-color:rgb(248, 174, 242);
+    float: right;
+    text-align: center;
+    width: 35%;
+    min-height: 550px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    padding: 10px;
+    box-shadow: 10px 20px rgb(142, 211, 228);
+    max-width: 100%;
+
+}  
+
+column3 {
+    /* create formatting for the third column*/
+    border-radius: 25%;
+    background-color:rgb(248, 174, 242);
+    float: right;
+    text-align: center;
+    width: 90%;
+    margin-right: 55px;
+    max-width: 100%;
+    margin-bottom: 50px;
+
+} 
+
+column4 {
+    /* create formatting for the fourth column*/
+    border-radius: 25%;
+    background-color:rgb(248, 174, 242);
+    float: right;
+    text-align: center;
+    width: 90%;
+    margin-right: 70px;
+    max-width: 100%;
+    margin-bottom: 50px;
+
+} 
+
+@media screen and (max-width: 1020px) {
+    /* set repsonsiveness for columns */
+    column1 {
+      width: 70%;
+      margin: auto;
+      display: block;
+      float: none;
+
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    /* set repsonsiveness for columns */
+    column2 {
+      width: 70%;
+      margin: auto;
+      margin-right:10px;
+      display: block;
+      float: none;
+
+    }
+}
+
+column1:after {
+    /* column formatting */
+    content: "";
+    clear: both;
+    float:none;
+    display: inline-block;
+    max-width: 100%;
+}
+
+column2:after {
+    /* column formatting */
+    content: "";
+    clear: both;
+    float:none;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* form formatting */
+form {
+    text-align: center;
+    clear:both;
+    color:rgb(142, 211, 228);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+/* table insert */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 100%;
+}
+
+th {
+    border: 3px solid #c5f2ff;
+    text-align: left;
+    padding: 10px;
+}
+  
+tr {
+    background-color: rgb(248, 174, 242);
+    font-size: 15px;
+}
+
+caption {
+    font-size: 12em;
+}
+
+
+/* video responsiveness */
+video {
+    max-width: 100%;
+    max-height: auto;
+}
